@@ -19,43 +19,30 @@ public class DatosDelEstudiante {
     Scanner objeto=new Scanner(System.in);//reserva espacio de memoria
     System.out.println("Ingrese el nombre de la Universidad: ");
     String nombreUniversidad=objeto.nextLine();
-
     System.out.println("Ingrese el departamento: ");
     String departamento=objeto.nextLine();
-
     System.out.println("Ingrese la carrera: ");
     String carrera=objeto.nextLine();
-
     System.out.println("Ingrese el nombre de la materia: ");
     String materia=objeto.nextLine();
-
     System.out.println("Ingrese nombres completos del estudiante: ");
     String nombres=objeto.nextLine();
-
     System.out.println("Ingrese el nivel del estudiante: ");
     String nivel=objeto.nextLine();
-
     System.out.println("Ingrese el numero de cedula: ");
     String cedula=objeto.nextLine();
-
     System.out.println("Ingrese el pais: ");
     String pais=objeto.nextLine();
-
     System.out.println("Ingrese la ciudad: ");
     String ciudad=objeto.nextLine();
-
     System.out.println("Ingrese el canton");
     String canton=objeto.nextLine();
-
     System.out.println("Ingrese la provincia");
     String provincia=objeto.nextLine();
-
     System.out.println("Ingrese el ID ");
     String ID=objeto.nextLine();
-
     System.out.println("Ingrese el tipo de sexo ");
     String sexo=objeto.nextLine();
-
     System.out.println("BIENBENIDO A LA UNIVERSIAD: " +nombreUniversidad);
     }
 }

@@ -1,10 +1,9 @@
 /*
  * Implemente un algoritmo que le permita solicitar el ingreso por teclado
 el nombre de la Universidad, el departamento, la carrera, el nombre de la materia,
-nombres completos del estudiante, nivel, numero de cedula, pais, ciudad, 
+nombres completos del estudiante, nivel, numero de cedula, pais, ciudad,
 canton, provincia, ID, sexo
  */
-
 package datosdelestudiante;
 /**
  *
@@ -12,7 +11,6 @@ package datosdelestudiante;
  */
 import java.util.Scanner;
 public class DatosDelEstudiante {
-
     /**
      * @param args the command line arguments
      */
@@ -59,7 +57,5 @@ public class DatosDelEstudiante {
     String sexo=objeto.nextLine();
 
     System.out.println("BIENBENIDO A LA UNIVERSIAD: " +nombreUniversidad);
-
     }
-
 }
